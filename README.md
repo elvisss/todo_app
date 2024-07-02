@@ -25,7 +25,7 @@
 - **GET**: Obtener todos los TODOs no completados
 
 ## PATH: /api/todo/<em><span style="color:orange">:query</span></em> (2)
-- **GET**: Filtrar TODOs por el título
+- **GET**: Filtrar TODOs por el título y listarlos por orden de prioridad descendente (mayor a menor)
 
 <br>
 
