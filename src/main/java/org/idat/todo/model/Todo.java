@@ -15,9 +15,12 @@ public class Todo {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
+
     @Column(length = 100, nullable = false, unique = true)
     private String title;
+
     @Column(nullable = false)
     private int priority;
-    private boolean completed;
+
+    private boolean completed = false;
 }

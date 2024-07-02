@@ -18,10 +18,10 @@
 }
 ```
 
-## PATH: /api/todo/complete (2)
+## PATH: /api/todo/completed (2)
 - **GET**: Obtener todos los TODOs completados
 
-## PATH: /api/todo/not_complete (2)
+## PATH: /api/todo/not_completed (2)
 - **GET**: Obtener todos los TODOs no completados
 
 ## PATH: /api/todo/<em><span style="color:orange">:query</span></em> (2)
